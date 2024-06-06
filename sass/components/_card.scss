@@ -1,0 +1,58 @@
+.card__program {
+    position: relative;
+    width: 520px;
+    height: 320px;
+    background: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px;
+    color: $white;
+  }
+  
+  .card__program::before,
+  .card__program::after {
+    position: absolute;
+    content: "";
+    width: 1%;
+    height: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/mh-trainer-2-1533577086.png);
+    background-position: 80% 10%;
+    transition: all 0.5s;
+  }
+  
+  .card__program::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card__program::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card__program:hover::before,
+  .card__program:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

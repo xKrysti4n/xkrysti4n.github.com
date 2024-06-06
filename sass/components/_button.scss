@@ -1,0 +1,14 @@
+.btn {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: $white;
+    background-color: $secondary-color;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+.btn:hover {
+    background-color: $secondary-color-dark;
+}

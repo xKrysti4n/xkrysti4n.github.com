@@ -1,0 +1,66 @@
+
+.membership__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .membership__card {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color-light;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .membership__card:hover {
+    background-color: $primary-color-extra-light;
+    border-color: $secondary-color;
+  }
+  
+  .membership__card__content {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+  
+  .membership__card h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $white;
+  }
+  
+  .membership__card h3 {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: $white;
+    border-bottom: 2px solid $white;
+  }
+  
+  .membership__card p {
+    margin-bottom: 0.75rem;
+    color: $white;
+  }
+  
+  .membership__card p i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    color: $secondary-color;
+  }
+  
+  .price__btn {
+    color: $secondary-color;
+    background-color: transparent;
+    border: 2px solid $secondary-color;
+  }
+  
+  .price__btn:hover {
+    color: $white;
+    background-color: $secondary-color;
+  }
+  

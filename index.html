@@ -1,19 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{
-            color: #FF2400;
-        }
-        body{
-            background-color: #080808;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+      <link href="https://css.gg/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>PeakFit | Krystian Binkowski</title>
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="images/logo.png" alt="logo" /></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#aboutus">O nas</a></li>
+        <li class="link"><a href="#trainers">Nasi trenerzy</a></li>
+        <li class="link"><a href="#pricing">Kup karnet online</a></li>
+        <li class="link"><a href="#gallery">Galeria</a></li>
+        <li class="link"><a href="#map">Gdzie nas znajdzesz?</a></li>
+      </ul>
+    </nav>
+
+    <header  id="header" class="section__container header__container">
+      <div class="header__content">
+        <h1>SPORT TO NASZA PASJA</h1>
+        <p>
+          Nasi trenerzy pomogą każdemu <br>
+          Jeśli nie jesteś pewien/pewna jakie rodzaj ćwiczeń wykonywać aby osiągnąć pożądany przez ciebie efekt bez obaw nasi trenerzy pomogą każdemu w doborze odpowiedniego planu ćwiczeń
+        </p>
+        <a href="#aboutus"><button href class="btn">Dowiedz się więcej</button></a>
+        
+      </div>
+      <div class="header__image">
+        <img src="images/main.png" alt="header" />
+      </div>
+    </header>
+    
+
+    <section id="aboutus" class="section__container explore__container">
+      <h2 class="section__header">O nas</h2>
+      <p class="section__subheader section__subtext">
+      PeakFit to ogólnopolska sieć automatycznych klubów fitness działających w formule 24h/7/365.
+      Projekt charakteryzuje połączenie wysokiej jakości oraz niskiej ceny przy zachowaniu pełnej dostępności.
+      Każdy klub zbudowany jest z 12. unikalnych stref łączących się w jednolitą całość, przy zachowaniu całkowitej swobody open space.
+      </p>
+      <div class="aboutus__grid">
+        <div class="aboutus__card" data-aos="zoom-in" data-aos-duration="1200">
+          <span><i class="ri-wifi-line"></i></span>
+          <h4>Darmowe WIFI</h4>
+          <p>
+            Wolisz słuchać muzyki z telefonu niż z głośników? Może jakieś #Selfie? Nie ma problemu, bo w naszych klubach w Kielce,Warszawa masz dostęp do Internetu za darmo.
+          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="aboutus__card" data-aos="zoom-in" data-aos-duration="1200" >
+          <span><i class="ri-parking-line"></i></span>
+          <h4>Darmowy parking</h4>
+          <p>
+            W wybranych klubach fitness PeakFit parking jest bezpłatny. Polecamy jednak rower, jest zdrowszy i przyjemniejszy.
+          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="aboutus__card" data-aos="zoom-in"  data-aos-duration="1200">
+          <span><i class="ri-run-line"></i></span>
+          <h4>Bez limitu</h4>
+          <p>
+            Kluby PeakFit są dostępne dla klubowiczów przez 365 dni w roku 24h/7 – no chyba, że rok jest przestępny albo nastąpi jakaś konkretna awaria, poza tym mając karnet możesz korzystać z klubu zawsze, przez całą dobę, dowolną ilość razy.
+          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="aboutus__card" data-aos="zoom-in"data-aos-duration="1200"  >
+          <span><i class="ri-fridge-fill"></i></span>
+          <h4>Zamrożenie karnetu</h4>
+          <p>
+            Niezależnie od powodu możesz w dowolnym momencie zawiesić swoje członkostwo w PeakFit ze skutkiem od następnego miesiąca. Po co rezygnować skoro można zrobić przerwę?
+          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <div class="aboutus__card" data-aos="zoom-in"  data-aos-duration="1200">
+          <span><i class="ri-price-tag-3-fill"></i></span>
+          <h4>Gwarancja stałej ceny</h4>
+          <p>
+            Niezależnie od wszystkiego, jeżeli kupisz karnet, to jego cena nie zmieni się tak długo jak nie zrezygnujesz z członkostwa – Just LIKE THAT.          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <div class="aboutus__card" data-aos="zoom-in" data-aos-duration="1200">
+          <span><i class="ri-group-fill"></i></span>
+          <h4>Zajęcia grupowe</h4>
+          <p> 
+            Można ćwiczyć samemu, ale w grupie raźniej. Dlatego w cenie karnetu uzyskujesz dostęp do naszych autorskich zajęć grupowych. To nie tylko dobry trening pod okiem wykwalifikowanego instruktora, ale również dobra zabawa przy energetycznej muzyce.
+          </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="aboutus__card" data-aos="zoom-in" data-aos-duration="1200">
+          <span><i class="ri-file-fill"></i></span>
+          <h4>Prosta umowa</h4>
+          <p> 
+            Karnet do PeakFit możesz kupić nie ruszając się z domu, gdyż sprzedaż odbywa się za pośrednictwem Internetu.           </p>
+          <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="aboutus__card" data-aos="zoom-in" data-aos-duration="1200" >
+          <span><i class="ri-pencil-fill"></i></span>
+          <h4>Bez haczyków</h4>
+          <p> 
+            Kary umowne? Ukryte koszty zapisane małym druczkiem? Nic z tych rzeczy – też tego nie lubimy. Jeśli coś jest niejasne, to napisz do nas, a udzielimy transparentnej odpowiedzi.</p>      
+            <a href="#pricing">Dołącz teraz<i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section  class="section__container join__container " data-aos="zoom-in" data-aos-duration="1200">
+      <h2 id="trainers" class="section__header">Nasi trenerzy</h2>
+      <p class="section__subheader">
+        Nasi trenerzy w PeakFit pomogą Ci mądrze zrealizować twój cel treningowy i zadbają o Twoje bezpieczeństwo. Stawiamy na jakość, dlatego współpracujemy tylko z najlepszymi specjalistami, posiadającymi wiedzę również z zakresu anatomii, fizjoterapii czy dietetyki.
+      </p>
+      <div class="test">      
+      <div class="card__program">Mirosława Panchuk </div>
+      <div class="card__program">Tymon Leszko</div>
+      <div class="card__program">Krystian Głuchowski</div>
+    </div>
+    </section>
+
+    <section id="pricing" class="section__container price__container">
+      <h2 class="section__header">Karnet</h2>
+      <p class="section__subheader">
+        Nasz plan cenowy obejmuje różne poziomy członkostwa, każdy dostosowany do różnych preferencji.
+      </p>
+      <div class="membership__grid">
+        <div class="membership__card" data-aos="flip-left" data-aos-duration="1200">
+          <div class="membership__card__content">
+            <h4>Plan BASIC</h4>
+            <h3>100zł</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Dostęp do podstwowej strefy
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Zajęcia grupowe
+            </p>
+          </div>
+          <button class="btn price__btn">Dołącz teraz</button>
+        </div>
+        <div class="membership__card" data-aos="flip-left" data-aos-duration="1200">
+          <div class="membership__card__content">
+            <h4>Plan PRO</h4>
+            <h3>150zł</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Dostęp do strefy PRO
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Dostęp do parkingu PRO
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Bezpłatna Konsultacja z trenerem personalnym
+            </p>
+          </div>
+          <button class="btn price__btn">Dołącz teraz</button>
+        </div>
+        <div class="membership__card" data-aos="flip-left" data-aos-duration="1200">
+          <div class="membership__card__content">
+            <h4>Plan VIP</h4>
+            <h3>300zł</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Trener personalny
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Darmowy dostęp do strefy Fizjoterapi
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Darmowy sklepik*
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Darmowe wypożyczenie sprzętu 
+            </p>
+          </div>
+          <button class="btn price__btn">Dołącz teraz</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section__container">
+      <h2 class="section__header">Galeria</h2>
+      <p class="section__subheader">
+        To tylko jedna z wielu placówek które są rozsiane po całej Polsce
+      </p>
+      <div class="container__gallery" data-aos="zoom-in" data-aos-duration="1200">
+        <div class="card__gallery">
+          <img src="https://plus.unsplash.com/premium_photo-1679635697897-f96b39331de5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="card__gallery">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="card__gallery">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D">
+        </div>
+        <div class="card__gallery">
+          <img src="https://plus.unsplash.com/premium_photo-1682435533755-273aec988f08?q=80&w=2045&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="card__gallery">
+          <img src="https://images.unsplash.com/photo-1549476464-37392f717541?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="card__gallery">
+          <img src="https://plus.unsplash.com/premium_photo-1661284886010-c58530c86b7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="map" class="section__container" >
+      <h2 class="section__header">ZNAJDŹ NAS NA MAPIE</h2>
+      <p class="section__subheader">
+        To tylko jedna z wielu placówek które są rozsiane po całej Polsce
+      </p>
+      <br>
+
+      <iframe data-aos="fade-up" data-aos-duration="1000" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.9297023390138!2d20.639486142818868!3d50.88237706064511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47178965188b478b%3A0x7f8057b848697308!2sZesp%C3%B3%C5%82%20Szk%C3%B3%C5%82%20Informatycznych%20im.%20gen.%20J%C3%B3zefa%20Hauke-Bosaka%20w%20Kielcach!5e0!3m2!1spl!2spl!4v1717500525192!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+ 
+    <footer class="section__container footer__container">
+      <div class="footer__column">
+        <div class="footer__logo"><img src="images/logo.png" alt="logo" /></div>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-tiktok-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+      <div class="footer__column">
+        <h4>Dokumenty</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Regulamin</a>
+        <a href="#">Polityka Cookies</a>
+        <a href="#">Polityka prywatności</a>
+      </div>
+      <div class="footer__column">
+        <h4>Informacje</h4>
+        <a href="#">Sieć PeakFit</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Praca</a>
+      </div>
+      <div class="footer__column">
+        <h4>Usługi</h4>
+        <a href="#">Oferta dla firm</a>
+        <a href="#">Karnety dla Ciebie </a>
+        <a href="#">Reklama w klubach </a>
+        <a href="#">Znajdz klub </a>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Krystian Binkowski
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
 </html>

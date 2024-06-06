@@ -1,17 +1,6 @@
 {
-  "name": "xkrysti4n.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "compile:sass": "sass scss/main.scss css/style.css -w"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.71.1"
-  },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "aos": "^2.3.4",
+    "css.gg": "^2.1.1"
   }
 }
